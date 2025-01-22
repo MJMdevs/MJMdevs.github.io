@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M.J.M</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="My work.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+
+  <!-- Background Video -->
+  <div class="video-background">
+    <video autoplay loop muted playsinline id="bg-video">
+      <source src="image/1893746-uhd_3840_2160_25fps.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="image/LOGO.png" alt="" height="60px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link " href="Home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active border-bottom" href="My work.html">My work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  " href="Gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about me.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Content -->
+  <main class="content text-center text-light d-flex align-items-center">
+    <div class="container">
+        <div class="container my-5">
+            <h1 class="text-center mb-4">My work</h1>
+
+            <div class="container text-center my-4">
+                <button class="btn btn-primary mx-2 filter-btn" data-filter="all">All</button>
+                <button class="btn btn-secondary mx-2 filter-btn" data-filter="Logos">Logo</button>
+                <button class="btn btn-secondary mx-2 filter-btn" data-filter="Artwork">Artwork</button>
+                <button class="btn btn-secondary mx-2 filter-btn" data-filter="Website">Website</button>
+              </div>
+              <br>
+              <br>
+              
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 mb-4 gallery-item Logos active">
+                    <img src="image/logo1.png" alt="Logo Image"class="img-fluid">
+                  </div>
+                  
+                  <div class="col-md-4 mb-4 gallery-item Artwork active">
+                    <img src="image/ARTWORK1.png" alt="Artwork1 Image" class="img-fluid" width="250px" >
+                  </div>
+
+                  <div class="col-md-4 mb-4 gallery-item Artwork active">
+                    <img src="image/developer.png" alt="Artwork1 Image" class="img-fluid" width="250px" >
+                  </div>
+                  
+                  <div class="col-md-4 mb-4 gallery-item Website active">
+                    <img src="image/wardiere Inc.png" alt="People Image" class="img-fluid">
+                  </div>
+                  
+                  <div class="col-md-4 mb-4 gallery-item Logos">
+                    <img src="image/logo2.png" alt="Logo Image" class="img-fluid">
+                  </div>
+
+                  <div class="col-md-4 mb-4 gallery-item Logos">
+                    <img src="image/Sun ECO LOGO.png" alt="Logo Image" class="img-fluid">
+                  </div>
+
+                  <div class="col-md-4 mb-4 gallery-item Website">
+                    <img src="image/Aurora.png" alt="Website3 Image" class="img-fluid">
+                  </div>
+
+                  <div class="col-md-4 mb-4 gallery-item Website">
+                    <img src="image/Vaca.png" alt="Website2 Image" class="img-fluid">
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </main>
+
+  <!-- Footer  -->
+  <footer class="footer bg-dark text-light text-center py-3">
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            
+            <div class="col-md-4 mb-3">
+              <h5>Contact</h5>
+              <br>
+              <p>Email: <a href="mailto:your-email@example.com">M.J.M@outlook.com</a></p>
+              <p>Phone: (011) 456-7890</p>
+            </div>
+        
+           
+
+            
+            <div class="col-md-4 mb-3">
+              <h5>Follow Me</h5>
+              <br>
+              <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"><img src="image/facebook (2).png" height="50px"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"><img src="image/instagram (1).png " height="50px"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"><img src="image/twitter.png" height="50px"></i></a>
+            </div>
+       </div>
+            <div class="your-email">
+                <label for="email"><h5>Comment</h5></label>
+                <input type="email" class="form-control" id="email" name="email" required>
+                <br>
+                <button class="btn btn-primary btn-lg">Send</button>
+            </div>
+      </footer>
+  </footer>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+    // Filter gallery items based on category
+    document.querySelectorAll('.filter-btn').forEach(button => {
+      button.addEventListener('click', function () {
+        const filter = this.getAttribute('data-filter');
+        
+        document.querySelectorAll('.gallery-item').forEach(item => {
+          if (filter === 'all') {
+            item.classList.add('active'); // Show all items
+          } else if (item.classList.contains(filter)) {
+            item.classList.add('active'); // Show only items with matching category
+          } else {
+            item.classList.remove('active'); // Hide items without matching category
+          }
+        });
+  
+        // Update button active state
+        document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('btn-primary'));
+        this.classList.add('btn-primary');
+      });
+    });
+  </script>
+  
+</body>
+</html>
